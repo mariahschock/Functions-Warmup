@@ -60,11 +60,17 @@ const dogs = [{
 }]
 console.log("============ BONUS -- 1 ============")
 // Using index values and dot notation, console.log each dog's name
-console.log();
+console.log(dogs[0].name);
+console.log(dogs[1].name);
+console.log(dogs[2].name);
 
 console.log("============ BONUS -- 2 ============")
 // Using index values and dot notation, console.log the first breed of each dog
+console.log(dogs[0].breeds[0]);
+console.log(dogs[1].breeds[0]);
+console.log(dogs[2].breeds[0]);
 
 console.log("============ BONUS -- 3 ============")
 // Using template literals, print the following string
 // Benny is 6 years old
+console.log(`${dogs[0].name} is ${dogs[0].age} years old`);
